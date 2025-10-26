@@ -1,0 +1,22 @@
+name: sti202303612_irvandwiheriawan_uts_mobpro
+description: My Event Planner - UTS Pemrograman Mobile
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.15
+  uuid: ^3.0.7
+  image_picker: ^0.8.7+5
+  video_player: ^2.5.1
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
